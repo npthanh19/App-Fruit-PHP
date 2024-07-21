@@ -1,0 +1,11 @@
+.introduce {
+  padding: 20px 0;
+}
+.introduce p {
+  margin-bottom: 20px;
+}
+.introduce h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

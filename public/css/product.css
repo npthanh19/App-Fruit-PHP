@@ -1,0 +1,88 @@
+.product {
+  padding: 20px 0;
+}
+.products__category__item h3 {
+  border-radius: 15px;
+  background: #80bb35;
+  padding: 6px 20px;
+  margin: 0;
+  color: #fff;
+}
+.products__category__item ul li {
+  padding: 8.5px 20px 8.5px 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  line-height: 24px;
+  border-top: 1px #ebebeb solid;
+}
+.products__category__item ul li a {
+  color: black;
+  text-decoration: none;
+}
+.products__category__item ul li input {
+  margin-right: 5px;
+}
+.products__category__item:nth-of-type(2) ul li {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+.products__category__item:nth-of-type(2) ul li h4 {
+  font-weight: 600;
+}
+.products__category__item:nth-of-type(2) ul li span {
+  color: #fe9705;
+}
+.products__category__item ul li img {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px #ebebeb solid;
+}
+.card-product {
+  position: relative;
+  margin-bottom: 20px;
+}
+.card-product-tag {
+  position: absolute;
+  background-color: #fe9705;
+  padding: 5px;
+  color: #ebebeb;
+  font-size: 10px;
+  border-radius: 10px 0 0 0;
+}
+.card-product-add {
+  width: 50px;
+  height: 50px;
+  background: #fe9705;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50% + 25px));
+  transition: all 0.25s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.card-product:hover > .card-product-add {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  visibility: visible;
+}
+.card-product > .card-product-add button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.card-product > .card-product-add button i {
+  font-size: 25px;
+  color: #fff;
+}

@@ -1,0 +1,40 @@
+.payment {
+  padding: 50px 0;
+}
+.payment__list__item {
+  height: 300px;
+}
+.info-payment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-payment ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+.info-payment h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.info-payment p {
+  margin-top: 20px;
+  font-weight: 600;
+  background: #fe9705;
+  padding: 10px 20px;
+  color: #fff;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.btn-primary {
+  background: #80bb35;
+  border: none;
+  padding: 10px 40px;
+}
+.btn-primary:hover {
+  background-color: #94ba63;
+}
